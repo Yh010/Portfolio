@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 17px;
   border-radius: 50%;
   text-align: center;
   width: 45px;
@@ -150,33 +150,33 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   white-space: nowrap;
 }
-
+/* home, who am i, etc part */
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #D9D7F1;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
 }
-
+/* icons of home, who am i, etc part */
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #1A374D;
 }
-
+/* colour of home, who am i, etc part when u hover over it */
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
-
+/* colour of  icons for home, who am i, etc part when u hover over it */
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #fff;
 }
 
-/* Mobile Navigation */
+/* Mobile Navigation
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -207,18 +207,28 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+*/
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+/*#hero{
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../images/page.jpeg") top center;
+  background: url("../images/page.jpeg");
   background-size: cover;
+}*/
+#hero {
+  /*width: 100%;
+  height: 100vh;*/
+  background: url("../images/page.jpeg");
+  background-repeat: no-repeat;
+   background-position:center;
+  background-size:cover ;
 }
 
-#hero:before {
+/*#hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
@@ -273,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-}
+}*/
 
 /*--------------------------------------------------------------
 # Sections General
